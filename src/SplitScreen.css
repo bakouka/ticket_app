@@ -1,0 +1,68 @@
+/* Styles for the container */
+.split-screen-container {
+    display: flex;
+  }
+  
+  /* Styles for the left side */
+  .left-side {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .left-side img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .left-side p {
+    font-size: 24px;
+  }
+  
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  .input-field {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ 
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  /* Styles for the right side */
+  .right-side {
+    text-align: center;
+  }
+  
+  .right-side img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Styles for the login button */
+  .login-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  /* Styles for the confirmer section */
+  .confirmer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
