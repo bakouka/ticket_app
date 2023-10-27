@@ -7,7 +7,7 @@ import TitleWithIcon from './TitleWithIcon';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import SplitScreen from './SplitScreen';
 import Page2 from "./Page2";
-import Page3 from "./Page3"
+import Ticket from "./Ticket"
 //import Login from './Login';
 
 
@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<SplitScreen />}></Route>
           <Route path="/Page2" element={< Page2/>}></Route>
-          <Route path="/Page3" element={< Page3/>}></Route>
+          <Route path="/Page3" element={< Ticket/>}></Route>
         </Routes>
       </BrowserRouter>
 

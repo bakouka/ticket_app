@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@700&display=swap');
+
+.ticket {
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 833.7px;
+    height: 342.36px;
+    background-image: url(C:\Users\bakabakouka\Desktop\app_stage\ticket.png);
+   background-size: cover;
+   font-family: 'Sometype Mono', monospace;
+
+   
+  }
+
+  .ticket .header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5px;
+  }
+
+  .ticket .header div {
+    color: white;
+    font-size: 1.65rem;
+    font-weight: bold;
+  }
+
+  .ticket .header div:first-child{
+    position: relative;
+    left: 100px;
+    top: 10px;
+  }
+
+  .ticket .header div:nth-child(2){
+    color: black;
+  }
+  
+  .ticket .header div:last-child{
+    position: relative;
+    right: 50px;
+  }
+  
+
+  .ticket .information {
+    width: 100%;
+    height: 290px;
+    display: flex;
+
+  }
+
+
+
+  .ticket .information .right {
+    width: 200px;
+  }
+  
+  .ticket .information .left {
+    width: 640px;
+  }
+
+  .ticket .information .right * {
+    margin: 0;
+    padding: 0;
+  }
+  .ticket .information .right h3 {
+    padding: 10px 0;
+    font-size: 1.35rem;
+  }
+  
+  .ticket .information .right h4 {
+    font-size: 1.15rem;
+    margin-bottom: 15px;
+  }
+
+  .ticket .information .right .infos  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .ticket .information .right .infos > div {
+    width: 100px;
+    flex: 1;
+  }
+  .ticket .information .right .infos p {
+    width: 100%;
+    padding: 1px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+
+  }
+
+  .ticket .information .right .qrcode canvas {
+    width: 90px !important;
+    height: 90px !important;
+    position: relative;
+  }

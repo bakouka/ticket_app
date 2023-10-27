@@ -5,7 +5,7 @@ import  { useState, useEffect } from "react";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-import "./Page3.js"
+import "./Ticket.js"
 
 
 
